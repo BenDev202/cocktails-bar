@@ -20,7 +20,7 @@ const navLinks = [
 const cocktailLists = [
  {
 	name: "Chapel Hill Shiraz",
-	country: "AU",
+	country: "RW",
 	detail: "Battle",
 	price: "$10",
  },

@@ -58,15 +58,23 @@ const About = () => {
 		 <div  className="noisy" />
 		 <img src="/images/abt1.png" alt="grid-img-1" />
 		</div>
+
+		<div className="md:col-span-3">
+		 <div  className="noisy" />
+			<div className='flex flex-col items-center mt-15'>
+				<h2 className='border-b-2'>Crafted to impress</h2>
+				<ul className='p-10 text-md '>
+					<li><p>Perfectly balnced blends</p></li>
+					<li><p>Garnished to perfection</p></li>
+					<li><p>Ice-cold every time</p></li>
+					<li><p>Expertly shaken & stirred</p></li>
+				</ul>
+			</div>
+		</div>
 		
 		<div className="md:col-span-6">
 		 <div  className="noisy" />
 		 <img src="/images/abt2.png" alt="grid-img-2" />
-		</div>
-		
-		<div className="md:col-span-3">
-		 <div  className="noisy" />
-		 <img src="/images/abt5.png" alt="grid-img-5" />
 		</div>
 	 </div>
 	 
